@@ -1,30 +1,54 @@
+:root {
+    --cor--cabeçalhorodape: #5DC460;
+    --cor--corpo: #A3E89C;
+    --cor--preto: black;
+    --cor--branco: white;
+    --cor--cinza: #d4cece;
+}
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
-header{
-    background-color:#71C969;
+/*  */
+/* inicio do css do intex */
+#cabecalho-inicial {
+    background-color: var(--cor--cabeçalhorodape);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
 }
 
-nav{
-    text-align: right;
+#cabecalho-inicial nav a {
+    text-decoration: none;
+    color: var(--cor--preto);
+    font-size: 20px;
 }
 
-main{
-    text-align: center;
-}
-
-#botao{
-  border-radius: 30px;
-}
-
-#botao2{
-    border-radius: 30px;
+/* main do index */
+.quem-somosText {
+    width: 50%;
+    position: absolute;
+    top: 130px;
+    left: 370px;
 }
 
 
-form{
-    border-radius: 30px;
+#pesquisa-produtos {
+    background-color: var(--cor--corpo);
 }
 
+.botoes-pesquisa-produtos button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 90px 15px 90px;
+    font-size: 20px;
+}
+
+.botoes-pesquisa-produtos button:hover {
+    cursor: pointer;
+    background-color: var(--cor--cinza);
+}
