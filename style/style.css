@@ -27,13 +27,20 @@ header nav a {
     font-size: 20px;
 }
 
+#quem-somos{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+}
+
 /* main do index */
     /* quem somos */
 .quem-somosText {
     width: 50%;
-    position: absolute;
     top: 130px;
     left: 370px;
+    padding-left: 10px;
+
 }
 
     /* segunda sessao do index*/

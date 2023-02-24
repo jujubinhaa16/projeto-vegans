@@ -27,5 +27,40 @@
         width: auto;
     }
 
-} 
+}
 
+@media (max-width: 880px) {
+    .busca-devo{
+        width: auto;
+    }
+}
+
+@media (max-width: 580px){
+    .pesquisa-busca{
+        width: auto;
+    }
+
+    .botoes{
+        display: block;
+    }
+
+    .tabela-textos{
+        display: block;
+        
+    }
+}
+
+@media (max-width: 480px) {
+    #formulariobaby input {
+        width: 90%;
+    }
+
+    #coisinha{
+        margin: 0px 0px 20px;
+    }
+
+    #botaozinho a,
+    #botaozinho button {
+        width: calc(100% - 50px);
+    }
+}
