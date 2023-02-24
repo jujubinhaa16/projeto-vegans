@@ -102,7 +102,7 @@ header nav a {
     padding-bottom: 5px;
 }
 
-<<<<<<< HEAD
+
 #loguindajuju{
     background-color: var(--cor--cabeçalhorodape);
     display: flex;
@@ -112,8 +112,8 @@ header nav a {
     color: var(--cor--branco);
     font-size: 20px;
     background-color: #5DC460;
+}
 
-=======
 #main-isa .cima-carrinho h4{
     padding-top: 7px;
 }
@@ -311,7 +311,6 @@ main .form-buttom-pos button{
     padding: 15px;
     background-image: url(../imgkami/footer.png);
     background-size: cover;
->>>>>>> cde2ac104b7a11ee1c40445ddf88fff3bdeb5f8e
 }
 
 #formulariobaby input{
