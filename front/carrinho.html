@@ -4,96 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Imprima&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/mobile.css">
     <title>Carrinho</title>
 </head>
 <body>
-    <header id="header-carrinho">
-        <h1>Vegan Cosméticos</h1>
+    <header id="header">
+        <figure>
+            <img src="../imgkami/vegans logo.png" alt="logo">
+        </figure>
         <nav>
             <a href="index.html">Sair</a>
         </nav>
+
     </header>
 
-    <main>
+    <main id="main-isa">
 
         <section class="carrinho-de-compras">
-            <div class="cima-carrinho">
-                <h2>Carrinho de compras</h2>
-                <hr>
-                <h4>1 item</h4>
-            </div>
-            <div class="shampoo">
-                <img src="../img/shamvegano 1.png" alt="">
-                <p>Shampoo Vegano</p>
-
-            </div>
-            <div class="selecionar">
-
-                <div class="quantidade">
-                   <button>-</button>
-                   <p>2</p>
-                   <button>+</button>
+            <div class="informacoes-produto">
+                <div class="cima-carrinho">
+                    <h2>Carrinho de compras</h2>
+                    <hr>
+                    <h4>1 item</h4>
                 </div>
+                
+                
+                
+                <div class="selecionar">
 
-                <div class="preço">
-                    <p>Preço</p>
-                    <p>R$99,99</p>
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="../img/shamvegano 1.png" alt="shamppovegano" height="150" width="150">
+                                <p>Shampoo Vegano</p>
+                            </td>
 
-                </div>
+                            <td>
+                                <div class="quantidade">
+                                    <button class="button-quantidade">-</button>
+                                    <p>2</p>
+                                    <button class="button-quantidade">+</button>
+                                </div>
+                            </td>
 
-                <div class="total">
-                    <p>Total</p>
-                    <p>R$199.98</p>
+                            <td>
+                                <p>Preço</p>
+                                <p>R$99,99</p>
+                            </td>
 
-                </div>
+                            <td>
+                                <p>Total</p>
+                                <p>R$0,99</p>
+                            </td>
+                        </tr>
+                    </table>
 
-
+                    <!-- <div class="shampoo">
+                        
+        
+                    </div>
+    
+                    <div class="quantidade">
+                        <button class="button-quantidade">-</button>
+                        <p>2</p>
+                        <button class="button-quantidade">+</button>
+                    </div>
+    
+                    <div class="preço">
+                        <p>Preço</p>
+                        <p>R$99,99</p>
+    
+                    </div>
+    
+                    <div class="total-selecionar">
+                        <p>Total</p>
+                        <p>R$0,99</p>
+    
+                    </div> -->
+                </div> 
             </div>
             
-            <div>
-                <div>
+            <div class="informacoes-pagamento">
+                <div class="informacoes-cartao">
                     <h2>Informações de pagamento</h2>
                     <br>
                     <p>Cartão</p>
                 </div>
-                <div>
+                <div class="cartoes">
+                    <div>
                     
-                    <label for="mastercard"><img src="../img/mastercard 1.png" alt="mastercard"></label>
-                    <input type="radio" id="mastercard" name="fav_language" value="mastercard">
+                        <label for="mastercard"><img src="../img/mastercard 1.png" alt="mastercard" height="40" width="60"></label>
+                        <input type="radio" id="mastercard" name="fav_language" value="mastercard">
+                    </div>
+                    <div>
+                        <label for="visa"><img src="../img/visa 1.png" alt="visa" height="40" width="70"></label>
+                        <input type="radio" id="visa" name="fav_language" value="visa">
+    
+                    </div>
+                    <div>
+                        <label for="elo"><img src="../img/elo 1.png" alt="elo" height="30" width="70"></label>
+                        <input type="radio" id="mastercard" name="fav_language" value="mastercard">
+                    </div>
+    
+                    <div class="numero-do-cartao">
+                        <label for="numerodocartao">Número do cartão</label>
+                        <input type="text" name="numerodocartao" size="20">
+                    </div>
                 </div>
-                <div>
-                    <label for="visa"><img src="../img/visa 1.png" alt="visa"></label>
-                    <input type="radio" id="visa" name="fav_language" value="visa">
 
-                </div>
-                <div>
-                    <label for="elo"><img src="../img/elo 1.png" alt="elo"></label>
-                    <input type="radio" id="mastercard" name="fav_language" value="mastercard">
-                </div>
+                <hr class="barra-preta">
 
-                <div>
-                    <label for="numerodocartao">Número do cartão</label>
-                    <input type="text" name="numerodocartao" size="20">
-                </div>
-                <hr>
-
-                <div>
+                <div class="subtotal">
                     
                     <h4>Subtotal</h4>
-                    <p>R$0</p>
+                    <p>R$44</p>
 
+                </div>
+
+                <div class="frete">
                     <h4>Frete</h4>
-                    <p>R$0</p>
+                    <p>R$20</p>
                 </div>
 
-                <div>
+                <div class="total">
                     <h4>Total</h4>
-                    <p>R$0</p>
+                    <p>R$00</p>
                 </div>
 
-                <div>
-                    <button>Pagar --></button>
+                <div class="button-div">
+                    <button class="button-pagar">Pagar --></button>
                 </div>
                 
 
