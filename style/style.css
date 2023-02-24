@@ -13,7 +13,7 @@
 
 /*  */
 /* inicio do css do intex */
-header {
+#header {
     background-color: var(--cor--cabeçalhorodape);
     display: flex;
     justify-content: space-between;
@@ -95,6 +95,39 @@ header nav a {
 #main-isa .cima-carrinho{
     text-align: left;
     margin: 10px;
+    font-family: 'Imprima', sans-serif;
+}
+
+#main-isa .cima-carrinho h2{
+    padding-bottom: 5px;
+}
+
+<<<<<<< HEAD
+#loguindajuju{
+    background-color: var(--cor--cabeçalhorodape);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    text-decoration: none;
+    color: var(--cor--branco);
+    font-size: 20px;
+    background-color: #5DC460;
+
+=======
+#main-isa .cima-carrinho h4{
+    padding-top: 7px;
+}
+
+#main-isa .informacoes-cartao h2{
+    padding-top: 8px;
+}
+
+#main-isa .informacoes-cartao p{
+    padding-bottom: 9px;
+}
+
+#main-isa .cartoes{
+    padding-bottom: 10px;
 }
 
 #main-isa .shampoo{
@@ -105,6 +138,7 @@ header nav a {
 #main-isa .carrinho-de-compras{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    font-family: 'Imprima', sans-serif;
 }
 
 #main-isa .informacoes-pagamento{
@@ -123,8 +157,12 @@ header nav a {
 
 #main-isa .selecionar{
     text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    overflow: auto;
+}
+
+#main-isa .selecionar table {
+    width: 100%;
 }
 
 #main-isa .quantidade{
@@ -141,7 +179,7 @@ header nav a {
 #main-isa .cartoes{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* padding: 20px; */
+    padding-left: 10px;
 }
 
 #main-isa .numero-do-cartao input{
@@ -273,10 +311,12 @@ main .form-buttom-pos button{
     padding: 15px;
     background-image: url(../imgkami/footer.png);
     background-size: cover;
+>>>>>>> cde2ac104b7a11ee1c40445ddf88fff3bdeb5f8e
 }
 
 #formulariobaby input{
     border-radius: 10px;
+    border: 1px solid;
     padding: 5px;
     width: 360px;
     justify-content: center;
@@ -306,6 +346,7 @@ main .form-buttom-pos button{
     width: 360px;
     background-color: #A3E89C;
     margin: 20px;
+    border: 1px solid;
 
 }
 
