@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="..//style/style.css">
+    <link rel="stylesheet" href="../style/style.css">
     <title>Regintre-se</title>
 </head>
 <body>
-    <header>
-        <h1>Vegans cosméticos</h1>
+    <header id="header">
+        <figure>
+            <img src="../imgkami/vegans logo.png" alt="logotemporaria">
+        </figure>
         <nav>
-            <a href="#">Sair</a>
+            <a href="../front/index.html">Sair</a>
         </nav>
     </header>
-    <main>
-        <section id="form">
+    <main id="form">
+        <section class="trase">
             <div class="registro">
              <h2>Registre-se</h2>
             </div>
@@ -40,13 +42,17 @@
                         <label for="senha">Confirmar senha:</label>
                         <input type="password" name="senha" id="senha" required placeholder="Confirme sua senha">
                     </div>
+                    <br>
                     <div class="form-buttom-cad">
                         <button type="submit">Cadastre-se</button>
                     </div>
-                    <div class="form-buttom-pos">
-                        <button type="submit">Possuo cadastro</button>
-                    </div>
+                    <br>
                 </form>
+                <div class="form-buttom-pos">
+                    <a href="../front/login.html">
+                        <button type="submit">Possuo cadastro</button>
+                    </a>
+                </div>
             </div>
         </section>
     </main>
