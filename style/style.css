@@ -109,6 +109,21 @@ header nav a {
     padding-bottom: 5px;
 }
 
+<<<<<<< HEAD
+
+#loguindajuju{
+    background-color: var(--cor--cabeçalhorodape);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    text-decoration: none;
+    color: var(--cor--branco);
+    font-size: 20px;
+    background-color: #5DC460;
+}
+
+=======
+>>>>>>> 2058bc0996d29d1a3e5102c5a51f89007fdaf821
 #main-isa .cima-carrinho h4{
     padding-top: 7px;
 }
