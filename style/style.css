@@ -51,4 +51,47 @@
 .botoes-pesquisa-produtos button:hover {
     cursor: pointer;
     background-color: var(--cor--cinza);
+
+}
+
+
+
+
+
+#formulariobaby input{
+    border-radius: 10px;
+    padding: 5px;
+    width: 360px;
+    justify-content: center;
+}
+
+#formulariobaby label {
+    display: block;
+    margin-right: 300px;
+}
+
+#mainte{
+    text-align: center;
+    margin: 60px 0px;
+
+}
+
+#botaozinho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#botaozinho  button{
+    padding: 5px;
+    border-radius: 20px;
+    width: 360px;
+    background-color: #A3E89C;
+    margin: 20px;
+
+}
+
+#coisinha{
+    margin: 20px;
 }
