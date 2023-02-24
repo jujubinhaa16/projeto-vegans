@@ -1,4 +1,93 @@
+:root {
+    --cor--cabeçalhorodape: #5DC460;
+    --cor--corpo: #A3E89C;
+    --cor--preto: black;
+    --cor--branco: white;
+    --cor--cinza: #d4cece;
+}
 
-header .trase{
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*  */
+/* inicio do css do intex */
+#header {
+    background-color: var(--cor--cabeçalhorodape);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+#header nav a {
+    text-decoration: none;
+    color: var(--cor--preto);
+    font-size: 20px;
+}
+
+/* main do index */
+.quem-somosText {
+    width: 50%;
+    position: absolute;
+    top: 130px;
+    left: 370px;
+}
+
+
+#pesquisa-produtos {
+    background-color: var(--cor--corpo);
+}
+
+.botoes-pesquisa-produtos button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 90px 15px 90px;
+    font-size: 20px;
+}
+
+.botoes-pesquisa-produtos button:hover {
+    cursor: pointer;
+    background-color: var(--cor--cinza);
+}
+
+/* Registra-se */
+main .registro{
     text-align: center;
+}
+
+main #form-formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding: 15px;
+}
+
+main #form-formulario input{
+    border-radius: 10px;
+    border: 1px solid;
+    width: 290px;
+    padding: 8px;
+    display: block;
+}
+
+main #form-formulario .form-buttom-cad button{
+    border-radius: 10px;
+    border: 1px;
+    background-color: var(--cor--corpo);
+    width: 310px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+main .form-buttom-pos button{
+    border-radius: 10px;
+    border: 1px;
+    background-color: var(--cor--corpo);
+    width: 150px;
+    padding: 6px;
+    cursor: pointer;
 }
