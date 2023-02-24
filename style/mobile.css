@@ -64,3 +64,28 @@
         width: calc(100% - 50px);
     }
 }
+@media (max-width: 640px){
+
+    header{
+        display: block;
+    }
+
+    #quem-somos{
+        display: block;
+    }
+
+    .botoes-pesquisa-produtos button{
+        display: block;
+    }
+    
+    #entregas-parcelamento{
+        display: block;
+    }
+
+}
+@media (max-width: 710px){
+    .rodapeInicial-contatos{
+        display: block;
+    }
+
+}
