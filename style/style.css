@@ -40,6 +40,7 @@ header nav a {
     top: 130px;
     left: 370px;
     padding-left: 10px;
+    margin: 20px 10px;
 
 }
 
@@ -109,23 +110,6 @@ header nav a {
     padding-bottom: 5px;
 }
 
-<<<<<<< HEAD
-=======
-
-
-#loguindajuju{
-    background-color: var(--cor--cabeçalhorodape);
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    text-decoration: none;
-    color: var(--cor--branco);
-    font-size: 20px;
-    background-color: #5DC460;
-}
-
-
->>>>>>> 485bbf1c741e559407f086f241b6539457c8ceef
 #main-isa .cima-carrinho h4{
     padding-top: 7px;
 }
@@ -306,14 +290,6 @@ main .form-buttom-pos button{
     padding: 15px;
 }
 
-.entregas {
-    margin: 0px 150px;
-}
-
-.parcelamento {
-    margin: 0px 150px;
-}
-
     /* footer index */
 #rodape-inicial {
     background-color: var(--cor--cabeçalhorodape);
@@ -326,6 +302,7 @@ main .form-buttom-pos button{
     background-image: url(../imgkami/footer.png);
     background-size: cover;
 }
+
 
 #formulariobaby input{
     border-radius: 10px;
@@ -365,6 +342,7 @@ main .form-buttom-pos button{
 #coisinha{
     margin: 20px;
 }
+
 
 /* devoluçãoes e pedidos */
 #devo {
@@ -489,7 +467,12 @@ main .form-buttom-pos button{
     border: none;
     padding: 10px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
+#botoes {
+    border: 1px solid;
+    border-radius: 15px;
+}
 
 
