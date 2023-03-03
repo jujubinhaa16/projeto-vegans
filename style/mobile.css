@@ -84,6 +84,18 @@
     }
 
 }
+
+@media (max-width: 540px){
+    
+    #lancamentos{
+        height: 160px;
+    }
+
+    #promocoes{
+        height: 360px;
+    }
+}
+
 @media (max-width: 710px){
     .rodapeInicial-contatos{
         display: block;
