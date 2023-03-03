@@ -1,6 +1,7 @@
 @media (max-width: 950px) {
     #main-isa .carrinho-de-compras {
         grid-template-columns: 1fr;;
+        overflow: auto;
     }
 
     .informacoes-produto {
@@ -89,3 +90,98 @@
     }
 
 }
+
+@media (min-width: 2560px) {
+    #lancamentos {
+        height: 926px;
+    }
+
+    #promocoes{
+        height: 1350px;
+    }
+}
+
+@media (max-width: 1440px) {
+    #lancamentos {
+        height: 523px;
+    }
+
+    #promocoes{
+        height: 750px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #lancamentos {
+        height: 374px;
+    }
+
+    #promocoes{
+        height: 531px;
+    }
+}
+
+@media (max-width: 768px) {
+    #lancamentos {
+        height: 284px;
+    }
+
+    #promocoes{
+        height: 408px;
+    }
+}
+
+@media (max-width: 426px) {
+    #lancamentos {
+        height: 159px;
+    }
+
+    #promocoes{
+        height: 221px;
+    }
+
+    .quem-somosText {
+        margin: 10px;
+    }
+
+    .devolucao-carrinho {
+        justify-content:left;
+        margin: 10px 0px;
+    }
+}
+
+@media (max-width: 376px) {
+    #lancamentos {
+        height: 141px;
+    }
+
+    #promocoes{
+        height: 195px;
+    }
+
+    .devolucao-carrinho {
+        justify-content:left;
+        margin: 10px 0px;
+    }
+}
+
+@media (max-width: 321px) {
+    #lancamentos {
+        height: 121px;
+    }
+
+    #promocoes{
+        height: 165px;
+
+    }
+
+    .devolucao-carrinho {
+        justify-content:left;
+        margin: 10px 0px;
+    }
+
+    .quem-somosImg img {
+        width: 100%;
+    }
+}
+
